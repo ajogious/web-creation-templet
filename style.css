@@ -1,0 +1,81 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-image: url(images/image.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header{
+  margin: 60px 60px;
+  padding: auto;
+}
+.head{
+  float: left;
+  border: 2px solid black ;
+  margin-top: 10px;
+  padding: 10px;
+}
+div h3{
+  font-family: Trebuchet MS;
+  font-weight: bolder;
+  font-size: 2em;
+  color: purple;
+}
+ul{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.nav{
+  margin: -50px 0;
+}
+ul li{
+  display: inline-block;
+  padding: 20px;
+  font-weight: bolder;
+}
+ul li a{
+  text-decoration: none;
+  color: purple;
+}
+ul li a:hover:not(.active){
+  text-decoration: none;
+  background-color: gray;
+  color: #fff;
+  padding: 25px 20px;
+  transition: 0.6s ease;
+}
+ul li a.active{
+  background-color: #fff;
+  padding: 20px 20px;
+  color: purple;
+}
+header .dev{
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  color: purple;
+}
+header .more{
+  position: absolute;
+  top: 70%;
+  left: 38%;
+}
+.more a{
+  text-decoration: none;
+}
+.btn{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 18px 18px;
+  font-weight: bold;
+  color: purple;
+}
+.more a:hover{
+  font-weight: bold;
+  color: #000;
+}
